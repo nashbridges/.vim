@@ -21,7 +21,6 @@ Bundle 'DataWraith/auto_mkdir'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-bundler'
 Bundle 'mileszs/ack.vim'
-Bundle 'xolox/vim-session'
 Bundle 'vim-scripts/YankRing.vim'
 
 " Text manipulation

@@ -66,7 +66,3 @@ vnoremap <leader>/ :call NERDComment(0, "invert")<cr>
 nnoremap <Leader>a :Ack! -Qi<space>
 
 nnoremap - :Switch<cr>
-
-nnoremap <leader>ss :SaveSession<CR>
-nnoremap <leader>so :OpenSession<CR>
-nnoremap <leader>sq :CloseSession<CR>

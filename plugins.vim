@@ -19,10 +19,6 @@ autocmd BufReadPost fugitive://* set bufhidden=delete
 let g:delimitMate_expand_space = 1
 let g:delimitMate_expand_cr = 1
 
-" vim-session
-let g:session_autosave=0
-let g:session_autoload=0
-
 " ultiSnips
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
