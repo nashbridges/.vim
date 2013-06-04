@@ -44,8 +44,12 @@ inoremap <C-s> <ESC>:w<CR>
 cnoremap <C-p> <Up>
 cnoremap <C-n> <Down>
 
-" RSpec
-nnoremap <leader>rf :! bundle exec rspec -t focus<CR>
+" Tests
+nnoremap <leader>tf :! bundle exec rspec -t focus<CR>
+
+" Rake
+nnoremap <leader>rdm :Rake db:migrate<CR>
+nnoremap <leader>rdtp :Rake db:test:prepare<CR>
 
 " Plugins
 nnoremap <C-i> :CtrlPBuff<CR>
