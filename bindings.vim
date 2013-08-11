@@ -57,6 +57,7 @@ nnoremap <leader>gs :Gstatus<CR>
 nnoremap <leader>ga :Git a<CR>
 nnoremap <leader>gc :w \| Gwrite \| Gcommit<CR>
 nnoremap <leader>gd :Gdiff<CR>
+nnoremap <leader>gca :Gcommit --amend<CR>
 
 inoremap <silent> <C-h> <C-R>=delimitMate#BS()<CR>
 inoremap <silent> <C-l> <C-R>=delimitMate#JumpAny('\<C-l>')<CR>
