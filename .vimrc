@@ -7,3 +7,4 @@ source ~/.vim/behaviour.vim
 source ~/.vim/russian.vim
 source ~/.vim/text_format.vim
 source ~/.vim/visual.vim
+source ~/.vim/session.vim
