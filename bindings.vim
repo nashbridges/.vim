@@ -29,7 +29,6 @@ nnoremap <leader><leader>s :%s/\s\+$//g<CR>
 
 " Windows
 nnoremap <space> <C-w>w
-nnoremap <leader>q :q<CR>
 nnoremap <leader>x :bd<CR>
 nnoremap <leader><leader>x :bufdo bd<CR>
 
