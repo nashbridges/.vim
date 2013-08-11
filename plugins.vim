@@ -5,8 +5,15 @@ let g:ctrlp_prompt_mappings = {
   \ 'PrtCurLeft()': ['<left>', '<c-^>'],
   \ 'PrtBS()': ['<bs>', '<c-]>', '<c-h>'], }
 
+" vim-rubytest
+let g:rubytest_cmd_spec = "bin/rspec '%p'"
+let g:rubytest_cmd_example = "bin/rspec '%p' -l '%c'"
+
 " easy-motion
 let g:EasyMotion_leader_key = '<Leader>'
+" conflicts with vim-rubytest
+let g:EasyMotion_mapping_t = ''
+let g:EasyMotion_mapping_T = ''
 
 " powerline
 let g:Powerline_symbols = 'fancy'

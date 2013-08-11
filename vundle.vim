@@ -22,6 +22,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-bundler'
 Bundle 'mileszs/ack.vim'
 Bundle 'vim-scripts/YankRing.vim'
+Bundle 'janx/vim-rubytest'
 
 " Text manipulation
 Bundle 'matchit.zip'

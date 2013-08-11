@@ -44,9 +44,6 @@ inoremap <C-s> <ESC>:w<CR>
 cnoremap <C-p> <Up>
 cnoremap <C-n> <Down>
 
-" Tests
-nnoremap <leader>tf :! bundle exec rspec -t focus<CR>
-
 " Rake
 nnoremap <leader>rdm :Rake db:migrate<CR>
 nnoremap <leader>rdtp :Rake db:test:prepare<CR>
