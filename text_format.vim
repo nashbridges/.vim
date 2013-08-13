@@ -5,6 +5,3 @@ set cindent
 set autoindent
 set smarttab
 set expandtab
-
-syntax on
-colorscheme jellybeans

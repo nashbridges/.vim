@@ -1,3 +1,7 @@
+syntax on
+colorscheme jellybeans
+highlight clear SignColumn " gitgutter
+
 set nu " line numbers on
 set nowrap
 set laststatus=2 " always show the statusline

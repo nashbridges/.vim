@@ -14,6 +14,7 @@ Bundle 'scrooloose/nerdtree'
 
 " UI
 Bundle 'Lokaltog/vim-powerline'
+Bundle 'airblade/vim-gitgutter'
 
 " General
 Bundle 'Rename2'
