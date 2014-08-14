@@ -7,8 +7,8 @@ let g:ctrlp_prompt_mappings = {
   \ 'PrtBS()': ['<bs>', '<c-]>', '<c-h>'], }
 
 " vim-rubytest
-let g:rubytest_cmd_spec = "bin/rspec '%p'"
-let g:rubytest_cmd_example = "bin/rspec '%p' -l '%c'"
+let g:rubytest_cmd_spec = "bundle exec rspec '%p'"
+let g:rubytest_cmd_example = "bundle exec rspec '%p:%c'"
 
 " easy-motion
 let g:EasyMotion_leader_key = '<Leader>'
