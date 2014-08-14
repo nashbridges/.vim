@@ -34,13 +34,3 @@ let g:UltiSnipsSnippetDirectories=["my-snippets"]
 
 " Ack -> Ag
 let g:ackprg = 'ag --nogroup --nocolor --column'
-
-" yankring
-let g:yankring_max_history = 5
-let g:yankring_min_element_length = 2
-let g:yankring_max_display = 70
-let g:yankring_replace_n_pkey = '<C-y>'
-let g:yankring_replace_n_nkey = ''
-function! YRRunAfterMaps()
-  nnoremap Y   :<C-U>YRYankCount 'yg_'<CR>
-endfunction
