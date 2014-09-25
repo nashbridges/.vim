@@ -9,6 +9,7 @@ Plugin 'gmarik/Vundle.vim'
 
 " Navigation
 Plugin 'kien/ctrlp.vim'
+Plugin 'JazzCore/ctrlp-cmatcher'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'scrooloose/nerdtree'
 
