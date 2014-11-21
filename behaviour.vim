@@ -8,6 +8,10 @@ set smartcase
 set incsearch
 set hlsearch
 
+" No spellchecking
+set nospell
+set spelllang=""
+
 " Backup
 set nowritebackup
 set nobackup

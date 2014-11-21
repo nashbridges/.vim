@@ -51,7 +51,7 @@ Plugin 'slim-template/vim-slim'
 
 Plugin 'mutewinter/vim-css3-syntax'
 
-Plugin 'hallison/vim-markdown'
+Plugin 'gabrielelana/vim-markdown'
 
 Plugin 'pangloss/vim-javascript'
 Plugin 'kchmck/vim-coffee-script'
