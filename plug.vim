@@ -21,7 +21,6 @@ Plug 'janx/vim-rubytest', {'commit': '50447ded2'}
 " Text manipulation
 Plug 'matchit.zip'
 Plug 'kana/vim-textobj-user', {'commit': '2ff5ddde3'}
-Plug 'kana/vim-textobj-indent', {'commit': 'deb76867c'}
 Plug 'rhysd/vim-textobj-ruby', {'commit': '665a945d9'}
 
 Plug 'tpope/vim-surround', {'commit': 'fa433e0b7'}
