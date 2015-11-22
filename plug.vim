@@ -33,7 +33,7 @@ Plug 'scrooloose/nerdcommenter', {'commit': '6549cfde4'}
 Plug 'SirVer/ultisnips', {'commit': '279d6e63c'}
 
 " Language Additions
-Plug 'vim-ruby/vim-ruby', {'commit': '5bc55bec6'}
+Plug 'vim-ruby/vim-ruby', {'commit': '7a0469404'}
 Plug 'tpope/vim-rails', {'commit': '1b0408b07'}
 Plug 'tpope/vim-rake', {'commit': '13533d90c'}
 
