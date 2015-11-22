@@ -5,4 +5,4 @@
 * `ln -s ~/.vim/.vimrc ~/.vimrc`
 * `ln -s ~/.vim/.gvimrc ~/.gvimrc`
 * install fonts from .vim/fonts
-* launch `mvim` and run `:PluginInstall`
+* launch `mvim` and run `:PlugInstall`
