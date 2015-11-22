@@ -15,7 +15,7 @@ Plug 'Rename2'
 Plug 'DataWraith/auto_mkdir'
 Plug 'tpope/vim-fugitive', {'commit': '90ee6fb5d'}
 Plug 'tpope/vim-bundler', {'commit': '37096dbdc'}
-Plug 'mileszs/ack.vim', {'commit': '303bceff1'}
+Plug 'mileszs/ack.vim', {'commit': '303bceff1', 'do': 'brew install ag'}
 Plug 'janx/vim-rubytest', {'commit': '50447ded2'}
 
 " Text manipulation
