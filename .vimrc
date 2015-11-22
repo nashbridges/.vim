@@ -1,6 +1,6 @@
 set encoding=utf-8
 
-source ~/.vim/vundle.vim
+source ~/.vim/plug.vim
 source ~/.vim/bindings.vim
 source ~/.vim/plugins.vim
 source ~/.vim/behaviour.vim
