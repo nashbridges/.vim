@@ -1,8 +1,8 @@
 call plug#begin('~/.vim/plugged')
 
 " Navigation
-Plug 'kien/ctrlp.vim'
-Plug 'JazzCore/ctrlp-cmatcher'
+Plug 'ctrlpvim/ctrlp.vim', {'commit': '7d42031ff'}
+Plug 'JazzCore/ctrlp-cmatcher', {'commit': '6c36334f1', 'do': './install.sh'}
 Plug 'Lokaltog/vim-easymotion', {'commit': 'fd556fd9d'}
 Plug 'scrooloose/nerdtree', {'commit': '4f1e6ecb0'}
 
