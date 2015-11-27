@@ -14,7 +14,11 @@ Plug 'airblade/vim-gitgutter', {'commit': '83ace2014'}
 Plug 'Rename2'
 Plug 'DataWraith/auto_mkdir'
 Plug 'tpope/vim-fugitive', {'commit': '90ee6fb5d'}
+
+Plug 'tpope/vim-projectionist', {'commit': '372d529'}
+Plug 'tpope/vim-rake', {'commit': '82ad45543'}
 Plug 'tpope/vim-bundler', {'commit': '37096dbdc'}
+
 Plug 'mileszs/ack.vim', {'commit': '303bceff1', 'do': 'brew install ag'}
 Plug 'nashbridges/vim-rubytest', {'commit': 'f0008ed27'}
 
@@ -35,7 +39,6 @@ Plug 'SirVer/ultisnips', {'commit': '279d6e63c'}
 " Language Additions
 Plug 'vim-ruby/vim-ruby', {'commit': '7a0469404'}
 Plug 'tpope/vim-rails', {'commit': '1b0408b07'}
-Plug 'tpope/vim-rake', {'commit': '13533d90c'}
 
 Plug 'othree/html5.vim', {'commit': 'ad41b4eb1'}
 Plug 'tpope/vim-haml', {'commit': '204e32721'}
