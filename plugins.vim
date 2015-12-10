@@ -12,6 +12,9 @@ let g:ctrlp_match_func = {'match' : 'matcher#cmatch' }
 let g:rubytest_cmd_spec = "bundle exec rspec '%p'"
 let g:rubytest_cmd_example = "bundle exec rspec '%p:%c'"
 
+" vim-clojure-static
+let g:clojure_align_subforms = 1
+
 " easy-motion
 let g:EasyMotion_leader_key = '<Leader>'
 " conflicts with vim-rubytest
