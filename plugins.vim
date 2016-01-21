@@ -39,4 +39,4 @@ let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsSnippetDirectories=["my-snippets"]
 
 " Ack -> Ag
-let g:ackprg = 'ag --nogroup --nocolor --column'
+let g:ackprg = 'ag --nogroup --nocolor --column --ignore-dir log'
