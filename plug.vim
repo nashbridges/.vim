@@ -20,7 +20,7 @@ Plug 'tpope/vim-rake', {'commit': '82ad45543'}
 Plug 'tpope/vim-bundler', {'commit': '37096dbdc'}
 
 Plug 'mileszs/ack.vim', {'commit': '303bceff1', 'do': 'brew install ag'}
-Plug 'nashbridges/vim-rubytest', {'commit': 'f0008ed27'}
+Plug 'janx/vim-rubytest', {'commit': 'fd11caf94a'}
 
 " Text manipulation
 Plug 'matchit.zip'
