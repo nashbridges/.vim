@@ -62,7 +62,7 @@ nnoremap <leader>gd :Gdiff<CR>
 nnoremap <leader>gca :Gcommit --amend<CR>
 
 inoremap <silent> <C-h> <C-R>=delimitMate#BS()<CR>
-inoremap <silent> <C-l> <C-R>=delimitMate#JumpAny('\<C-l>')<CR>
+inoremap <silent> <C-l> <C-R>=delimitMate#JumpAny()<CR>
 
 nnoremap <leader>/ :call NERDComment(0, "invert")<cr>
 vnoremap <leader>/ :call NERDComment(0, "invert")<cr>
