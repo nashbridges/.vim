@@ -16,7 +16,7 @@ nnoremap q; q:
 vnoremap q; q:
 
 " New line while not at the end of the current one
-inoremap <C-CR> <ESC>o
+inoremap <C-J> <ESC>o
 
 " Reordering lines (vim-unimpaired)
 nmap <C-j> ]e==
