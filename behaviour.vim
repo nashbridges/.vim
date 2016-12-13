@@ -22,3 +22,5 @@ set noswapfile
 set wildmenu
 set wildmode=full
 set history=200
+
+set clipboard=unnamed
