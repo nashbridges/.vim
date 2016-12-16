@@ -51,8 +51,6 @@ nnoremap <leader>rdtp :Rake db:test:prepare<CR>
 nnoremap <leader>pr :!powder restart<CR><CR>
 
 " Plugins
-nnoremap <C-i> :CtrlPBuff<CR>
-
 nnoremap <C-t> :NERDTreeToggle<CR>
 
 nnoremap <leader>gs :Gstatus<CR>

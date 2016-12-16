@@ -52,4 +52,6 @@ Plug 'pangloss/vim-javascript', {'commit': 'f8122fd1c'}
 Plug 'kchmck/vim-coffee-script', {'commit': '18c68524a'}
 Plug 'leshill/vim-json', {'commit': '3029554ee'}
 
+Plug 'bhurlow/vim-parinfer', {'commit': '8c5269b'}
+
 call plug#end()
