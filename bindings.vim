@@ -47,8 +47,8 @@ cnoremap <C-n> <Down>
 nnoremap <leader>rdm :Rake db:migrate<CR>
 nnoremap <leader>rdtp :Rake db:test:prepare<CR>
 
-" Powder
-nnoremap <leader>pr :!powder restart<CR><CR>
+" Puma-dev
+nnoremap <leader>pr :!puma-dev -stop<CR><CR>
 
 " Plugins
 nnoremap <C-t> :NERDTreeToggle<CR>
