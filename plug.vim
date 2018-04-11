@@ -35,6 +35,7 @@ Plug 'Raimondi/delimitMate', {'commit': '38487bbec'}
 Plug 'AndrewRadev/switch.vim', {'commit': '1bce1be77'}
 Plug 'scrooloose/nerdcommenter', {'commit': '6549cfde4'}
 Plug 'SirVer/ultisnips', {'commit': '279d6e63c'}
+Plug 'junegunn/vim-easy-align', {'commit': '1cd724d'}
 
 " Language Additions
 Plug 'vim-ruby/vim-ruby', {'commit': '7a0469404'}
@@ -53,5 +54,6 @@ Plug 'kchmck/vim-coffee-script', {'commit': '18c68524a'}
 Plug 'leshill/vim-json', {'commit': '3029554ee'}
 
 Plug 'bhurlow/vim-parinfer', {'commit': '8c5269b'}
+Plug 'tpope/vim-fireplace', {'commit': '265fc95f7'}
 
 call plug#end()
