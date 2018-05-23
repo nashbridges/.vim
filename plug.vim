@@ -2,7 +2,7 @@ call plug#begin('~/.vim/plugged')
 
 " Navigation
 Plug 'junegunn/fzf', {'commit': '62f062e', 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'junegunn/fzf.vim', {'commit': '88595eb'}
+Plug 'junegunn/fzf.vim', {'commit': '88595eb', 'do': 'brew install ag'}
 Plug 'Lokaltog/vim-easymotion', {'commit': 'fd556fd9d'}
 Plug 'scrooloose/nerdtree', {'commit': '4f1e6ecb0'}
 
@@ -19,7 +19,6 @@ Plug 'tpope/vim-projectionist', {'commit': '372d529'}
 Plug 'tpope/vim-rake', {'commit': '82ad45543'}
 Plug 'tpope/vim-bundler', {'commit': '37096dbdc'}
 
-Plug 'mileszs/ack.vim', {'commit': '303bceff1', 'do': 'brew install ag'}
 Plug 'janx/vim-rubytest', {'commit': 'fd11caf94a'}
 
 " Text manipulation

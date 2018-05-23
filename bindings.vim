@@ -53,8 +53,10 @@ nnoremap <leader>pr :!puma-dev -stop<CR><CR>
 " Plugins
 nnoremap <C-t> :NERDTreeToggle<CR>
 
+" fzf
 nnoremap <C-p> :GitFiles<CR>
 nnoremap <C-l> :Buffers<CR>
+nnoremap <Leader>a :Ag<space>
 
 nnoremap <leader>gs :Gstatus<CR>
 nnoremap <leader>ga :Git a<CR>
@@ -67,8 +69,6 @@ inoremap <silent> <C-l> <C-R>=delimitMate#JumpAny()<CR>
 
 nnoremap <leader>/ :call NERDComment(0, "invert")<cr>
 vnoremap <leader>/ :call NERDComment(0, "invert")<cr>
-
-nnoremap <Leader>a :Ack! -Qi<space>""<Left>
 
 nnoremap - :Switch<cr>
 

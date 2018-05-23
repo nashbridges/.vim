@@ -28,8 +28,5 @@ let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsSnippetDirectories=["my-snippets"]
 
-" Ack -> Ag
-let g:ackprg = 'ag --nogroup --nocolor --column --ignore-dir log'
-
 " vim-gitgutter
 let g:gitgutter_sign_column_always = 1
