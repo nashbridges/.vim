@@ -68,7 +68,7 @@ inoremap <silent> <C-l> <C-R>=delimitMate#JumpAny()<CR>
 nnoremap <leader>/ :call NERDComment(0, "invert")<cr>
 vnoremap <leader>/ :call NERDComment(0, "invert")<cr>
 
-nnoremap <Leader>a :Ack! -Qi<space>
+nnoremap <Leader>a :Ack! -Qi<space>""<Left>
 
 nnoremap - :Switch<cr>
 
