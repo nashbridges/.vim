@@ -53,7 +53,8 @@ nnoremap <leader>pr :!puma-dev -stop<CR><CR>
 " Plugins
 nnoremap <C-t> :NERDTreeToggle<CR>
 
-nnoremap <C-l> :CtrlPBuff<CR>
+nnoremap <C-p> :GitFiles<CR>
+nnoremap <C-l> :Buffers<CR>
 
 nnoremap <leader>gs :Gstatus<CR>
 nnoremap <leader>ga :Git a<CR>
