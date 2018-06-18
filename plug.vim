@@ -13,7 +13,8 @@ Plug 'airblade/vim-gitgutter', {'commit': '83ace2014'}
 " General
 Plug 'Rename2'
 Plug 'DataWraith/auto_mkdir'
-Plug 'tpope/vim-fugitive', {'commit': '90ee6fb5d'}
+Plug 'tpope/vim-fugitive', {'commit': '5c2095b'}
+Plug 'tpope/vim-rhubarb', {'commit': '6caad2b'}
 
 Plug 'tpope/vim-projectionist', {'commit': '372d529'}
 Plug 'tpope/vim-rake', {'commit': '82ad45543'}
