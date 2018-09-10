@@ -4,6 +4,7 @@ let maplocalleader="\\"
 " Normalization
 nnoremap Y yg_
 nnoremap v$ vg_
+nnoremap vv ^vg_
 
 " Zoom on search results
 nnoremap n nzz
