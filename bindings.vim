@@ -57,7 +57,7 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 " fzf
 nnoremap <C-p> :GitFiles --exclude-standard --cached --others<CR>
 nnoremap <C-l> :Buffers<CR>
-nnoremap <Leader>a :Ag<space>
+nnoremap <Leader>a :Rg<space>
 
 nnoremap <leader>gs :Gstatus<CR>
 nnoremap <leader>ga :Git a<CR>
