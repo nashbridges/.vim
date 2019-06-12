@@ -5,6 +5,7 @@ Plug 'junegunn/fzf', {'commit': '62f062e', 'dir': '~/.fzf', 'do': './install --a
 Plug 'junegunn/fzf.vim', {'commit': '91ed5f4b3', 'do': 'brew install ripgrep'}
 Plug 'Lokaltog/vim-easymotion', {'commit': 'fd556fd9d'}
 Plug 'scrooloose/nerdtree', {'commit': '4f1e6ecb0'}
+Plug 'alok/notational-fzf-vim', {'commit': '8abfd9f'}
 
 " UI
 Plug 'Lokaltog/vim-powerline', {'commit': '09c0cea85'}
