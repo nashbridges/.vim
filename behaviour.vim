@@ -1,7 +1,8 @@
+language en_US
+
 set nocompatible " be iMproved
 set hidden " allow to switch between unsaved buffers
 set autoread " automatically reload changes if detected
-set noesckeys " do not wait after <esc>
 
 " Searching
 set ignorecase

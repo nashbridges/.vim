@@ -2,7 +2,7 @@ call plug#begin('~/.vim/plugged')
 
 " Navigation
 Plug 'junegunn/fzf', {'commit': '62f062e', 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'junegunn/fzf.vim', {'commit': '91ed5f4b3', 'do': 'brew install ripgrep'}
+Plug 'junegunn/fzf.vim', {'commit': '48a2d80', 'do': 'brew install ripgrep'}
 Plug 'Lokaltog/vim-easymotion', {'commit': 'fd556fd9d'}
 Plug 'scrooloose/nerdtree', {'commit': '4f1e6ecb0'}
 Plug 'alok/notational-fzf-vim', {'commit': '8abfd9f'}
@@ -14,7 +14,7 @@ Plug 'airblade/vim-gitgutter', {'commit': '83ace2014'}
 " General
 Plug 'Rename2'
 Plug 'DataWraith/auto_mkdir'
-Plug 'tpope/vim-fugitive', {'commit': '5c2095b'}
+Plug 'tpope/vim-fugitive', {'commit': '3c3e6ea'}
 Plug 'tpope/vim-rhubarb', {'commit': '6caad2b'}
 
 Plug 'tpope/vim-projectionist', {'commit': '372d529'}
