@@ -43,7 +43,6 @@ Plug 'vim-ruby/vim-ruby', {'commit': '7a0469404'}
 Plug 'tpope/vim-rails', {'commit': '1b0408b07'}
 
 Plug 'othree/html5.vim', {'commit': 'ad41b4eb1'}
-Plug 'tpope/vim-haml', {'commit': '204e32721'}
 Plug 'slim-template/vim-slim', {'commit': '0daaa8581'}
 
 Plug 'hail2u/vim-css3-syntax', {'commit': '9e0ef247c'}
