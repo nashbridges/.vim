@@ -33,3 +33,8 @@ let g:gitgutter_sign_column_always = 1
 
 " notational-fzf-vim
 let g:nv_search_paths = ['~/Dropbox/notes']
+
+" ale
+let g:ale_linters = {
+\   'ruby': ['ruby'],
+\}

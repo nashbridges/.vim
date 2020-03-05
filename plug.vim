@@ -56,4 +56,6 @@ Plug 'leshill/vim-json', {'commit': '3029554ee'}
 Plug 'bhurlow/vim-parinfer', {'commit': 'd599e41'}
 Plug 'tpope/vim-fireplace', {'commit': '265fc95f7'}
 
+Plug 'dense-analysis/ale', {'commit': '8f7ccdc'}
+
 call plug#end()
