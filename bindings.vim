@@ -79,3 +79,8 @@ xmap ga <Plug>(EasyAlign)
 nmap ga <Plug>(EasyAlign)
 
 nnoremap <leader>s :NV<CR>
+
+" vim-test
+nnoremap <leader>t :TestNearest<CR>
+nnoremap <leader>T :TestFile<CR>
+nnoremap <leader>l :TestLast<CR>

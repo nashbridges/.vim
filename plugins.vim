@@ -1,14 +1,10 @@
-" vim-rubytest
-let g:rubytest_cmd_spec = "bundle exec rspec '%p'"
-let g:rubytest_cmd_example = "bundle exec rspec '%p:%c'"
-
 " vim-clojure-static
 let g:clojure_align_subforms = 1
 let g:clojure_fuzzy_indent_patterns = ['^with', '^def', '^let', '^cond$']
 
 " easy-motion
 let g:EasyMotion_leader_key = '<Leader>'
-" conflicts with vim-rubytest
+" conflicts with vim-test
 let g:EasyMotion_mapping_t = ''
 let g:EasyMotion_mapping_T = ''
 

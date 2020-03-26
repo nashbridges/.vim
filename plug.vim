@@ -21,7 +21,7 @@ Plug 'tpope/vim-projectionist', {'commit': '372d529'}
 Plug 'tpope/vim-rake', {'commit': '82ad45543'}
 Plug 'tpope/vim-bundler', {'commit': '37096dbdc'}
 
-Plug 'janx/vim-rubytest', {'commit': 'fd11caf94a'}
+Plug 'janko/vim-test', {'commit': '560bf9c'}
 
 " Text manipulation
 Plug 'matchit.zip'
