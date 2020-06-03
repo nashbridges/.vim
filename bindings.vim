@@ -55,7 +55,7 @@ nnoremap <leader>pr :!puma-dev -stop<CR><CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 
 " fzf
-nnoremap <C-p> :GitFiles --exclude-standard --cached --others<CR>
+nnoremap <C-p> :Files<CR>
 nnoremap <C-l> :Buffers<CR>
 nnoremap <Leader>a :Rg<space>
 
