@@ -5,3 +5,5 @@ set cindent
 set autoindent
 set smarttab
 set expandtab
+
+set formatoptions+=ro " automatically insert comment leader at the newline
