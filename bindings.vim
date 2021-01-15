@@ -57,6 +57,7 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 " fzf
 nnoremap <C-p> :Files<CR>
 nnoremap <C-l> :Buffers<CR>
+nnoremap <C-y> :History<CR>
 nnoremap <Leader>a :Rg<space>
 
 nnoremap <leader>gs :Gstatus<CR>
