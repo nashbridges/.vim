@@ -1,4 +1,4 @@
-language en_US
+language en_US.UTF-8
 
 set nocompatible " be iMproved
 set hidden " allow to switch between unsaved buffers
