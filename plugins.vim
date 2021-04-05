@@ -34,3 +34,6 @@ let g:nv_search_paths = ['~/Dropbox/notes']
 let g:ale_linters = {
 \   'ruby': ['ruby'],
 \}
+
+" nerdcommenter
+let g:NERDSpaceDelims = 1
