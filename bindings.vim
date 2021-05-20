@@ -31,6 +31,8 @@ nnoremap <leader><leader>s :%s/\s\+$//g<CR>
 " Windows
 nnoremap <space> <C-w>w
 nnoremap <leader>x :bd<CR>
+" Purge the current buffer, both the file representation on disk and the Vim buffer (https://stackoverflow.com/a/16679182/772874)
+nnoremap <leader>xd :call delete(expand('%:p')) \| bdelete!<CR>
 nnoremap <leader>x! :bufdo bd<CR>
 
 " Remove highlight
