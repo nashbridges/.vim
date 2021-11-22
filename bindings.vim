@@ -9,15 +9,9 @@ nnoremap Y yg_
 nnoremap v$ vg_
 nnoremap vv ^vg_
 
-" Zoom on search results
-nnoremap n nzz
-nnoremap N Nzz
-
 " Use ; for : in normal and visual mode, less keystrokes
 nnoremap ; :
 vnoremap ; :
-nnoremap q; q:
-vnoremap q; q:
 
 " New line while not at the end of the current one
 inoremap <C-J> <ESC>o
@@ -77,11 +71,6 @@ nnoremap <leader>/ :call NERDComment(0, "invert")<cr>
 vnoremap <leader>/ :call NERDComment(0, "invert")<cr>
 
 nnoremap - :Switch<cr>
-
-" Start interactive EasyAlign in visual mode (e.g. vipga)
-xmap ga <Plug>(EasyAlign)
-" Start interactive EasyAlign for a motion/text object (e.g. gaip)
-nmap ga <Plug>(EasyAlign)
 
 nnoremap <leader>s :NV<CR>
 
