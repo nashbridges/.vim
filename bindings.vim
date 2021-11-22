@@ -72,8 +72,6 @@ vnoremap <leader>/ :call NERDComment(0, "invert")<cr>
 
 nnoremap - :Switch<cr>
 
-nnoremap <leader>s :NV<CR>
-
 " vim-test
 nnoremap <leader>t :TestNearest<CR>
 nnoremap <leader>T :TestFile<CR>
