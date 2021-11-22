@@ -1,6 +1,9 @@
 let mapleader=","
 let maplocalleader="\\"
 
+" https://stackoverflow.com/questions/290465/how-to-paste-over-without-overwriting-register
+xnoremap p pgvy
+
 " Normalization
 nnoremap Y yg_
 nnoremap v$ vg_
