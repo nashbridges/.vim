@@ -19,11 +19,6 @@ autocmd BufReadPost fugitive://* set bufhidden=delete
 let g:delimitMate_expand_space = 1
 let g:delimitMate_expand_cr = 1
 
-" ultiSnips
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<tab>"
-let g:UltiSnipsSnippetDirectories=["my-snippets"]
-
 " vim-gitgutter
 let g:gitgutter_sign_column_always = 1
 
@@ -34,3 +29,6 @@ let g:ale_linters = {
 
 " nerdcommenter
 let g:NERDSpaceDelims = 1
+
+" snipMate
+let g:snipMate = { 'snippet_version' : 1 }

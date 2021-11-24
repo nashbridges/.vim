@@ -34,8 +34,12 @@ Plug 'tpope/vim-repeat', {'commit': '2a3c5f8e3'}
 Plug 'Raimondi/delimitMate', {'commit': '38487bbec'}
 Plug 'AndrewRadev/switch.vim', {'commit': '1bce1be77'}
 Plug 'scrooloose/nerdcommenter', {'commit': '6549cfde4'}
-Plug 'SirVer/ultisnips', {'commit': '279d6e63c'}
 Plug 'junegunn/vim-easy-align', {'commit': '1cd724d'}
+
+" SnipMate & deps
+Plug 'MarcWeber/vim-addon-mw-utils', {'commit': '6aaf4fe'}
+Plug 'tomtom/tlib_vim', {'commit': '70c4e22'}
+Plug 'garbas/vim-snipmate', {'commit': 'ed3c542'}
 
 " Language Additions
 Plug 'vim-ruby/vim-ruby', {'commit': '7a0469404'}

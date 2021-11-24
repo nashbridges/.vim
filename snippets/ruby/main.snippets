@@ -1,0 +1,31 @@
+snippet req require
+	require "$0"
+
+snippet def define method
+	def ${1:name}
+	end
+
+snippet defi def initialize
+	def initialize$1
+	end
+
+snippet cla class
+	class ${1:Name}
+	end
+
+snippet mod module
+	module ${1:Name}
+	end
+
+snippet do block with argument
+	{ |$1| $0 }
+
+snippet dob do block with argument
+	do |$1|
+		$0
+	end
+
+snippet class_eval class_eval from string
+	class_eval <<-EOM, __FILE__, __LINE__ + 1
+		$0
+	EOM
