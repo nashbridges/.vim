@@ -11,7 +11,7 @@ Plug 'Lokaltog/vim-powerline', {'commit': '09c0cea85'}
 Plug 'airblade/vim-gitgutter', {'commit': '83ace2014'}
 
 " General
-Plug 'Rename2'
+Plug 'vim-scripts/Rename2'
 Plug 'DataWraith/auto_mkdir'
 Plug 'tpope/vim-fugitive', {'commit': '3c3e6ea'}
 Plug 'tpope/vim-rhubarb', {'commit': '6caad2b'}
@@ -23,7 +23,7 @@ Plug 'tpope/vim-bundler', {'commit': '37096dbdc'}
 Plug 'janko/vim-test', {'commit': '560bf9c'}
 
 " Text manipulation
-Plug 'matchit.zip'
+Plug 'vim-scripts/matchit.zip'
 Plug 'kana/vim-textobj-user', {'commit': '2ff5ddde3'}
 Plug 'rhysd/vim-textobj-ruby', {'commit': '665a945d9'}
 
