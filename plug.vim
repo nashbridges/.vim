@@ -1,4 +1,4 @@
-call plug#begin('~/.vim/plugged')
+call plug#begin(stdpath('data') . '/plugged')
 
 " Navigation
 Plug 'junegunn/fzf', {'commit': '62f062e', 'dir': '~/.fzf', 'do': './install --all' }
@@ -13,7 +13,7 @@ Plug 'airblade/vim-gitgutter', {'commit': '83ace2014'}
 " General
 Plug 'vim-scripts/Rename2'
 Plug 'DataWraith/auto_mkdir'
-Plug 'tpope/vim-fugitive', {'commit': '3c3e6ea'}
+Plug 'tpope/vim-fugitive', {'commit': '5a24c25'}
 Plug 'tpope/vim-rhubarb', {'commit': '6caad2b'}
 
 Plug 'tpope/vim-projectionist', {'commit': '372d529'}
