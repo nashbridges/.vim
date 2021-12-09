@@ -63,6 +63,7 @@ nnoremap <leader>ga :Git a<CR>
 nnoremap <leader>gc :Git commit<CR>
 nnoremap <leader>gca :Git commit --amend<CR>
 nnoremap <leader>gf :Git fresh<CR>
+nnoremap <leader>gb :Git blame<CR>
 
 inoremap <silent> <C-h> <C-R>=delimitMate#BS()<CR>
 inoremap <silent> <C-l> <C-R>=delimitMate#JumpAny()<CR>
