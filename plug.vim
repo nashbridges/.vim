@@ -15,6 +15,7 @@ Plug 'vim-scripts/Rename2'
 Plug 'DataWraith/auto_mkdir'
 Plug 'tpope/vim-fugitive', {'commit': '5a24c25'}
 Plug 'tpope/vim-rhubarb', {'commit': '6caad2b'}
+Plug 'wsdjeg/vim-fetch', {'commit': '0a6ab17'} " handle line column and numbers in filenames
 
 Plug 'tpope/vim-projectionist', {'commit': '372d529'}
 Plug 'tpope/vim-rake', {'commit': '82ad45543'}
