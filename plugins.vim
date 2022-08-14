@@ -32,3 +32,6 @@ let g:NERDSpaceDelims = 1
 
 " snipMate
 let g:snipMate = { 'snippet_version' : 1 }
+
+" vim-markdown
+let g:markdown_enable_mappings = 0
