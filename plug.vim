@@ -58,7 +58,7 @@ Plug 'kchmck/vim-coffee-script', {'commit': '18c68524a'}
 Plug 'leshill/vim-json', {'commit': '3029554ee'}
 
 Plug 'bhurlow/vim-parinfer', {'commit': 'd599e41'}
-Plug 'tpope/vim-fireplace', {'commit': '265fc95f7'}
+Plug 'Olical/conjure', {'commit': 'a8686aa'}
 
 Plug 'dense-analysis/ale', {'commit': '8f7ccdc'}
 
