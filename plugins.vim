@@ -22,16 +22,18 @@ let g:delimitMate_expand_cr = 1
 " vim-gitgutter
 let g:gitgutter_sign_column_always = 1
 
-" ale
-let g:ale_linters = {
-\   'ruby': ['ruby'],
-\}
-
 " nerdcommenter
 let g:NERDSpaceDelims = 1
 
-" snipMate
-let g:snipMate = { 'snippet_version' : 1 }
-
 " vim-markdown
 let g:markdown_enable_mappings = 0
+
+" coc.nvim
+let g:coc_global_extensions = [
+\ 'coc-tsserver',
+\ 'coc-json',
+\ 'coc-snippets',
+\ 'coc-css',
+\ 'coc-html',
+\]
+let g:coc_snippet_next = '<tab>'

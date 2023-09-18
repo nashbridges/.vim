@@ -37,11 +37,6 @@ Plug 'AndrewRadev/switch.vim', {'commit': '1bce1be77'}
 Plug 'scrooloose/nerdcommenter', {'commit': '6549cfde4'}
 Plug 'junegunn/vim-easy-align', {'commit': '1cd724d'}
 
-" SnipMate & deps
-Plug 'MarcWeber/vim-addon-mw-utils', {'commit': '6aaf4fe'}
-Plug 'tomtom/tlib_vim', {'commit': '70c4e22'}
-Plug 'garbas/vim-snipmate', {'commit': 'ed3c542'}
-
 " Language Additions
 Plug 'vim-ruby/vim-ruby', {'commit': '7a0469404'}
 Plug 'tpope/vim-rails', {'commit': '1b0408b07'}
@@ -62,6 +57,6 @@ Plug 'maxmellon/vim-jsx-pretty', {'commit': '6989f16'}
 Plug 'bhurlow/vim-parinfer', {'commit': 'd599e41'}
 Plug 'Olical/conjure', {'commit': 'd88a3c8'}
 
-Plug 'dense-analysis/ale', {'commit': '8f7ccdc'}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()

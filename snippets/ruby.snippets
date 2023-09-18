@@ -29,3 +29,37 @@ snippet class_eval class_eval from string
 	class_eval <<-EOM, __FILE__, __LINE__ + 1
 		$0
 	EOM
+
+snippet pry
+	require 'pry'; binding.pry
+
+snippet bb byebug
+	byebug
+
+snippet shot capybara screenshot
+	save_and_open_screenshot
+
+snippet des describe
+	describe "$1" do
+		$0
+	end
+
+snippet it
+	it "$1" do
+		$0
+	end
+
+snippet spe specify
+	specify "$1" do
+		$0
+	end
+
+snippet exa example
+	example "$1" do
+		$0
+	end
+
+snippet con context
+	context "$1" do
+		$0
+	end

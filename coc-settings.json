@@ -1,0 +1,5 @@
+{
+  "snippets.ultisnips.enable": false,
+  "suggest.noselect": true,
+  "html.filetypes": ["html", "erb", "eruby"],
+}

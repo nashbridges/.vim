@@ -25,3 +25,4 @@ set wildmode=full
 set history=200
 
 set clipboard=unnamed
+set updatetime=300 " recommended by coc.nvim (default is 4000 ms)
