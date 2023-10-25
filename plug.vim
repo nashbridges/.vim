@@ -34,7 +34,7 @@ Plug 'tpope/vim-unimpaired', {'commit': '2791b1f27'}
 Plug 'tpope/vim-repeat', {'commit': '2a3c5f8e3'}
 Plug 'Raimondi/delimitMate', {'commit': '38487bbec'}
 Plug 'AndrewRadev/switch.vim', {'commit': '1bce1be77'}
-Plug 'scrooloose/nerdcommenter', {'commit': '6549cfde4'}
+Plug 'tomtom/tcomment_vim', {'commit': '90eaf75'}
 Plug 'junegunn/vim-easy-align', {'commit': '1cd724d'}
 
 " Language Additions

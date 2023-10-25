@@ -68,9 +68,6 @@ nnoremap <leader>gb :Git blame<CR>
 inoremap <silent> <C-h> <C-R>=delimitMate#BS()<CR>
 inoremap <silent> <C-l> <C-R>=delimitMate#JumpAny()<CR>
 
-nnoremap <leader>/ :call NERDComment(0, "invert")<cr>
-vnoremap <leader>/ :call NERDComment(0, "invert")<cr>
-
 nnoremap - :Switch<cr>
 
 " vim-test

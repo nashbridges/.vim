@@ -22,9 +22,6 @@ let g:delimitMate_expand_cr = 1
 " vim-gitgutter
 let g:gitgutter_sign_column_always = 1
 
-" nerdcommenter
-let g:NERDSpaceDelims = 1
-
 " vim-markdown
 let g:markdown_enable_mappings = 0
 
