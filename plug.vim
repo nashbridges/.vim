@@ -8,7 +8,7 @@ Plug 'scrooloose/nerdtree', {'commit': '4f1e6ecb0'}
 
 " UI
 Plug 'Lokaltog/vim-powerline', {'commit': '09c0cea85'}
-Plug 'airblade/vim-gitgutter', {'commit': '83ace2014'}
+Plug 'airblade/vim-gitgutter', {'commit': 'f7b9766'}
 
 " General
 Plug 'vim-scripts/Rename2'
