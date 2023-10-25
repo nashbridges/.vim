@@ -32,5 +32,7 @@ let g:coc_global_extensions = [
 \ 'coc-snippets',
 \ 'coc-css',
 \ 'coc-html',
+\ 'coc-prettier',
+\ 'coc-eslint',
 \]
 let g:coc_snippet_next = '<tab>'
