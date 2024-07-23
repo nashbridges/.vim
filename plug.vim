@@ -53,6 +53,7 @@ Plug 'kchmck/vim-coffee-script', {'commit': '18c68524a'}
 Plug 'leshill/vim-json', {'commit': '3029554ee'}
 Plug 'leafgarland/typescript-vim', {'commit': '31ede5a'}
 Plug 'maxmellon/vim-jsx-pretty', {'commit': '6989f16'}
+Plug 'tikhomirov/vim-glsl', {'commit': 'bfd330a'}
 
 Plug 'bhurlow/vim-parinfer', {'commit': 'd599e41'}
 Plug 'Olical/conjure', {'commit': 'd88a3c8'}
