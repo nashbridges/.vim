@@ -58,6 +58,6 @@ Plug 'tikhomirov/vim-glsl', {'commit': 'bfd330a'}
 Plug 'bhurlow/vim-parinfer', {'commit': 'd599e41'}
 Plug 'Olical/conjure', {'commit': 'd88a3c8'}
 
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc.nvim', {'commit': '7b9e1ef0a'}
 
 call plug#end()
